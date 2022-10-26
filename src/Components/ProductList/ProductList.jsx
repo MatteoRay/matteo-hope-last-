@@ -56,7 +56,7 @@ const ProductList = () => {
         } else {
             tg.MainButton.show();
             tg.MainButton.setParams({
-                text: `Купить`
+                text: `Купить ${getTotalPrice(newItems)}`
             })
         }
     }
